@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-image {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .profile-image img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #444;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 5px;
+    }
+
+    .skills,
+    .programming-languages,
+    .ai-knowledge,
+    .github-links {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .skills li,
+    .programming-languages li,
+    .ai-knowledge li {
+      background-color: #eaeaea;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .github-links li {
+      margin: 5px 0;
+    }
+
+    .github-links a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .github-links a:hover {
+      text-decoration: underline;
+    }
+
+    .print-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .print-button button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    .print-button button:hover {
+      background-color: #0056b3;
+    }
+
+    .print-instructions {
+      font-size: 14px;
+      color: #555;
+      text-align: center;
+    }
+
+    @media print {
+      body {
+        background-color: #fff;
+      }
+
+      .container {
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+      }
+
+      .print-button {
+        display: none;
+      }
+
+      .section h2 {
+        page-break-after: avoid;
+      }
+
+      .profile-image img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .container,
+      .section {
+        page-break-inside: avoid;
+      }
+
+      .github-links a {
+        color: black;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="profile-image">
+      <img src="C:\Users\mauri\Pictures\1601561810762.jpg" alt="Foto de Perfil">
+    </div>
+    <div class="section">
+      <h1>Mauricio Prestes Grigol</h1>
+      <p>Email: mauricioprestesgrigol@gmail.com</p>
+      <p>Telefone: (49) 9 8897-1962</p>
+      <p>Endereço: Rua São Franscisco, 412, Faxinal dos Guedes, SC</p>
+      <li><a href="https://drive.google.com/file/d/18DjmbCFd5O87-QrYsM-8juIQZKw31M6U/view?usp=drivesdk"
+          target="_blank">Pretensão Salarial: R$</a></li>
+    </div>
+    <div class="section">
+      <h2>Resumo</h2>
+      <p><b>Engenheiro Bioenergético</b> especializado em pesquisa e desenvolvimento de tecnologias sustentáveis com
+        recursos bioenergéticos, incluindo biocombustíveis e bioenergias, também especialista em <b>Engenharia de
+          Segurança do Trabalho</b>. Experiência sólida em <b>Lean Manufacturing</b>, com foco em otimização de
+        processos e melhoria contínua. Habilidades avançadas em ferramentas de informática como Office, Power Apps e
+        Power BI, além de proficiência em <b>linguagens de programação</b> Python, HTML e JavaScript, e conhecimento em
+        <b>Inteligência Artificial</b>.
+      </p>
+    </div>
+    <div class="section">
+      <h2>Formação Acadêmica</h2>
+      <p><b>Bacharelado</b> em Engenharia Bioenergética, Universidade do Oeste de Santa Catarina - UNOESC, 2011-2016</p>
+      <p><b>Especialização</b> em Engenharia de Segurança do Trabalho, Universidade Candido Mendes - UCAM-RJ, 2016-2018
+      </p>
+    </div>
+    <div class="section">
+      <h2>Experiência Profissional</h2>
+      <p><strong>Analista de Processos</strong> - <a href="https://rafitecpropex.com.br/" target="_blank">Rafitec
+          Propex</a>
+        - (05/2023 - Presente)</p>
+      <ul>
+        <li><b>Mapeamento e Análise de Processos:</b> Identificar, mapear e analisar os processos atuais da organização
+          para entender seu fluxo e identificar áreas de desperdício e oportunidades de melhoria.</li>
+        <li><b>Implementação de Ferramentas Lean:</b> Aplicar ferramentas e técnicas Lean, como 5S, Kanban, Value Stream
+          Mapping (VSM), e Kaizen, para otimizar os processos e reduzir desperdícios.</li>
+        <li><b>Desenvolvimento de Planos de Melhoria:</b> Criar e implementar planos de ação para melhorar a eficiência
+          e eficácia dos processos, baseados em análises detalhadas e dados quantitativos.</li>
+        <li><b>Monitoramento de Indicadores de Desempenho:</b> Estabelecer e acompanhar indicadores de desempenho (KPIs)
+          para medir a eficácia das melhorias implementadas e garantir a sustentabilidade das mudanças.</li>
+        <li><b>Facilitação de Workshops e Treinamentos:</b> Conduzir treinamentos e workshops sobre princípios e
+          práticas Lean para equipes e departamentos, promovendo a cultura de melhoria contínua.</li>
+        <li><b>Gestão de Projetos de Melhoria:</b> Coordenar e liderar projetos de melhoria contínua, garantindo que
+          sejam concluídos dentro do prazo e do orçamento estabelecidos, e que os objetivos de melhoria sejam
+          alcançados.</li>
+        <li><b>Análise de Dados e Relatórios:</b> Coletar e analisar dados operacionais para identificar tendências e
+          áreas de oportunidade, e preparar relatórios que documentem os resultados das iniciativas Lean.</li>
+        <li><b>Promover a Cultura de Melhoria Contínua:</b> Incentivar e apoiar a mentalidade de melhoria contínua entre
+          os colaboradores, garantindo que a abordagem Lean se torne parte integrante da cultura organizacional.</li>
+      </ul>
+      <p><strong>Assistente Administrativo</strong> - Prefeitura Municipal de Faxinal dos Guedes (01/2012 - 04/2023)</p>
+      <ul>
+        <li>Responsável por atividades administrativas, suporte a processos internos e atendimento ao público.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Habilidades (Soft Skills)</h2>
+      <ul class="skills">
+        <li>Office</li>
+        <li>Power App</li>
+        <li>Power BI</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Linguagens de Programação</h2>
+      <ul class="programming-languages">
+        <li>Python</li>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>React Native</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Conhecimento em IA</h2>
+      <ul class="ai-knowledge">
+        <li>Inteligência Artificial</li>
+        <li>Machine Learning</li>
+        <li>Deep Learning</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Projetos no GitHub envolvendo Programação e IA</h2>
+      <ul class="github-links">
+        <li><a href="https://mauthope.github.io/iarafi/" target="_blank">Projeto 1: IA de detecção de Pessoas e Objetos
+            em tempo real.</a></li>
+        <h5>OBS: Para testar o [Projeto 1] permita o acesso da câmera quando solicitado. Pode ser executado diretamente
+          pelo celular. Aponte a câmera para pessoas e/ou objetos.</h5>
+        <li><a href="https://github.com/seuusuario/projeto2" target="_blank">Projeto 2: IA de processamento de
+            planilhas.</a></li>
+        <li><a href="https://mauthope.github.io/Controle-de-pagamento-de-im-vel/" target="_blank">Projeto 3:
+            Planejamento Financeiro.</a></li>
+      </ul>
+    </div>
+    <div class="print-button">
+      <button onclick="window.print()">Imprimir Currículo</button>
+      <p class="print-instructions">Sugerimos ajustar a escala de impressão para 55% nas configurações da impressora
+        para imprimir o currículo em apenas uma página.
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
